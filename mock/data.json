@@ -1,0 +1,14 @@
+[
+    {
+        "name": "John Papa",
+        "age": 30
+    },
+    {
+        "name": "Bill Gates",
+        "age": 60
+    },
+    {
+        "name": "Steve Jobs",
+        "age": 70
+    }
+]
