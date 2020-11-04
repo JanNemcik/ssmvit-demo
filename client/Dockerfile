@@ -15,3 +15,5 @@ FROM nginx
 # copying built app into default nginx folder
 COPY --from=build /app/dist/ssmvit-demo /usr/share/nginx/html
 COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80

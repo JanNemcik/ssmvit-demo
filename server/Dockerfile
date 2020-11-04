@@ -12,4 +12,6 @@ COPY --from=build /app /app
 
 WORKDIR /app
 
+EXPOSE 3000
+
 ENTRYPOINT ["node", "index.js"]
